@@ -8,9 +8,9 @@ Having policies is the first step in implementing a non-trivial scheduler. For t
 ### Part 2 - Random Number Generator
 Lottery scheduling is a randomized heuristic. Hence, we need to design a pseudo-random number generator (PRNG). Since xv6 does not include a PNRG, you need to design one. This does not require strong randomness such as in cryptographic algorithms but a decent PRNG will do. **Implement an in-kernel PRNG.** 
 
-## Part 3 - Scheduler		
+### Part 3 - Scheduler		
 Lottery scheduling works by assigning tickets to each of the processes in the system. Then, in each time slice, it randomly picks a ‘winning’ ticket. It is up to you to decide how many more tickets to assign less nice processes and vice versa. **Implement lottery scheduling in xv6.**	
 
-## Part 4 - Testing
+### Part 4 - Testing
 There are testcases in the userspace to test all the above mentioned scenarious
 
