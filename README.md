@@ -12,5 +12,4 @@ Lottery scheduling is a randomized heuristic. Hence, we need to design a pseudo-
 Lottery scheduling works by assigning tickets to each of the processes in the system. Then, in each time slice, it randomly picks a ‘winning’ ticket. It is up to you to decide how many more tickets to assign less nice processes and vice versa. **Implement lottery scheduling in xv6.**	
 
 ### Part 4 - Testing
-There are testcases in the userspace to test all the above mentioned scenarious
-
+There are testcases in the userspace to test all the above mentioned scenarios.
